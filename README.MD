@@ -2,36 +2,18 @@
 <h1 align="center">📌  RCM - Rent Car Manager </h1>
 
 <p align="center">
-  <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=fe428e&style=for-the-badge"/>
+  <img src="http://img.shields.io/static/v1?label=License&message=AGPL-3.0&color=fe428e&style=for-the-badge"/>
 
-  <img src="http://img.shields.io/static/v1?label=Python&message=2.6.13&color=fe428e&style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="http://img.shields.io/static/v1?label=Python&message=3.12.0&color=fe428e&style=for-the-badge&logo=python&logoColor=white"/>
   
-  <img src="https://img.shields.io/static/v1?label=ASTERISK&message=SOFTWARE&color=fe428e&style=for-the-badge&logo=ASTERISK"/>
-  
-  <img src="https://img.shields.io/static/v1?label=ASTERISK-AGI&message=BIBLIOTECA&color=fe428e&style=for-the-badge&logo=AGI"/>
+  <img src="https://img.shields.io/static/v1?label=FLET&message=GUI/FRAMEWORK&color=fe428e&style=for-the-badge&logo=FLET"/>
 
-  <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20ANDAMENTO&color=fe428e&style=for-the-badge"/>
+  <img src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=fe428e&style=for-the-badge"/>
 </p>
 
 
 <p align="center">
 RentCarManager é uma solução abrangente e intuitiva projetada para simplificar e otimizar o gerenciamento de aluguéis veiculares. Com uma interface amigável, permite que empresas de aluguel de veículos controlem eficientemente todas as etapas do processo de locação, desde a reserva até o controle do financeiro de sua empresa.
-</p>
-
-<p align="center">
-  <a href="https://github.com/HypThaNyx">
-    <img alt="Made by Wesley Yago" src="https://img.shields.io/badge/made%20by-Wesley%20Yago-orange">
-  </a>
-
-  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/HypThaNyx/ReadmeTemplate">
-
-  <img alt="Contributors" src="https://img.shields.io/github/contributors/HypThaNyx/ReadmeTemplate">
-
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-orange">
-
-  <a href="https://www.linkedin.com/in/wesley-yago-da-silva/">
-    <img alt="Check out my LinkedIn!" src="https://img.shields.io/badge/-LinkedIn-black.svg?logo=linkedin&color=666">
-  </a>
 </p>
 
 ---
@@ -41,19 +23,26 @@ RentCarManager é uma solução abrangente e intuitiva projetada para simplifica
 <ul>
   <li><a href="#-como-funciona">Como funciona</a></li>
   <li><a href="#-exemplo-na-prática">Exemplo na prática</a></li>
+  <li><a href="#-executando-na-sua-máquina">Executando na sua máquina</a></li>
   <li><a href="#-testando-na-sua-máquina">Testando na sua máquina</a></li>
   <li><a href="#-features">Features</a></li>
-  <li><a href="#-apoio">Apoio</a></li>
   <li><a href="#-licença">Licença</a></li>
+  <li><a href="#-mais-informações">Mais informações</a></li>
 </ul>
 
 ---
 
 ## 🧪 Como funciona
 
-*(Descrição da regra de negócio e fundamento teórico)*
+Este projeto foi desenvolvido utilizando da recém lançada FLET, uma tecnologia que permite a criação de aplicativos para diversas plataformas, em tempo real para Python, sem a necessidade de conhecimento prévio em Front-end, dessa forma podendo maximizar os esforços para o desempenho e toda estrutura Back-end.
 
-Ainda não entendeu a premissa desse projeto e como ele pode ser útil? Observe o tópico abaixo "Exemplo na prática" para entender melhor.
+O Flet além de inovador, criativo e simples consegue te fornecer interfaces e funcionalidades incríveis e de alta modelação.
+
+Lembrando que o Flet é baseado 100% em Flutter, um framework de código aberto criado pela Google.
+
+A premissa desse projeto foi uma solução para a empresa "Angra Rent Car" (localizada na Califórnia, estado oeste dos EUA) que desejava um software que suprisse suas necessidades de gerenciamento e controle de aluguéis veiculares e controle financeiro de sua empresa, inicialmente sendo desenvolvida como um projeto privado.
+
+Após a finalização da fase de testes, em acordo com a Empresa realizamos a distribuição do software gratuitamente para testes em outras empresas do ramo conhecidas pela mesma e decidimos torna-la uma solução geral, não apenas única e privada e liberar o código fonte para fins educacionais.
 
 ---
 
@@ -65,32 +54,58 @@ Gostou e quer testar a aplicação na sua máquina? O tópico abaixo "Testando n
 
 ---
 
-## 🚀 Testando na sua máquina
+## 🚀 Executando na sua máquina
 
-*(Passo a passo de como baixar e executar o projeto em qualquer máquina)*
+*(Passo a passo de como executar o projeto em qualquer máquina com o executável)*
+
 ### Requisitos básicos
-- [Git](https://git-scm.com/downloads)
-- [JDK 11](https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html)
-- [.NET Core 3.1](https://dotnet.microsoft.com/en-us/download/dotnet/3.1) (SDK ou Runtime)
+- [Windows 10+](https://www.microsoft.com/pt-br/software-download/windows10)
 
 ### Instruções de uso
-- escolha uma pasta e execute o Git Bash (clique direito na pasta -> Git Bash Here)
+- Clique no botão "Code" pelo github na parte superior direita do repositório
+
+- Selecione a opção "Download ZIP"
+
+- Abra com um descompactador (como winrar ou nativo) e selecione apenas a pasta "RCM.rar" 
+e realize a descompactação dela.
+
+- Após realizar a descompactação agora você terá a pasta "RCM" com dois arquivos dentros:
+"RCM - Rent Car Manager.exe" e "bd.sqlite3"
+
+- Agora é só clicar 2x com o botão esquerdo e executar o "RCM - Rent Car Manager.exe"
+
+- Voilà!
+
+---
+
+## 🚀 Testando na sua máquina
+
+*(Passo a passo de como baixar e executar o projeto em qualquer máquina com o código fonte)*
+
+### Requisitos básicos
+- [Python 3.12.0](https://www.python.org/downloads/)
+- [Flet](https://flet.dev)
+
+### Instruções de uso
+- Escolha uma pasta e execute o Git Bash (clique direito na pasta -> Git Bash Here)
 
 - clone esse repositório na sua máquina
 ``` bash
-git clone https://github.com/HypThaNyx/ReadmeTemplate.git
+git clone https://github.com/kakanetwork/RentCarManager.git
 ```
 - entre na pasta do projeto
 ``` bash
-cd ReadmeTemplate
+cd RentCarManager
 ```
-- rode o comando a seguir para rodar os testes unitários:
+- Instale todas as dependências
 ``` bash
-dotnet test | mvn test
+pip install -r requirements.txt
 ```
-
-- voilà!
-
+- Agora é só executar o flet 
+``` bash
+flet ./app.py
+```
+- Voilà!
 
 ---
 
@@ -101,51 +116,23 @@ dotnet test | mvn test
 
 ---
 
-### 📋 Documentação
-
-Esse projeto segue as seguintes Commit Guidelines:
-
-- build: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
-- ci: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
-- docs: Documentation only changes
-- feat: A new feature
-- fix: A bug fix
-- perf: A code change that improves performance
-- refactor: A code change that neither fixes a bug nor adds a feature
-- style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
-- test: Adding missing tests or correcting existing tests
-- chore: Misc content
-
----
-
-## 📌 Apoio
-
-Entre em contato e preste apoio através das seguintes redes:
-
-- <a href="https://hypthanyx.itch.io/">
-    <img alt="Check out my Itch.io!" src="https://img.shields.io/badge/Itch.io-HypThaNyx-fff?logo=itch.io&style=social">
-  </a>
-- <a href="https://twitter.com/hypthanyx">
-    <img alt="Check out my Twitter!" src="https://img.shields.io/badge/Twitter-HypThaNyx-fff?logo=twitter&style=social">
-  </a>
-- <a href="https://www.instagram.com/hypthanyx/">
-    <img alt="Check out my Instagram!" src="https://img.shields.io/badge/Instagram-HypThaNyx-fff?logo=instagram&style=social">
-  </a>
-- <a href="https://www.linkedin.com/in/wesley-yago-da-silva/">
-    <img alt="Check out my LinkedIn!" src="https://img.shields.io/badge/LinkedIn-Wesley Yago-black.svg?logo=linkedin&color=666&style=social">
-  </a>
-- <a href="https://www.youtube.com/channel/UC_x5u0TqJWN4O3GMwZRWkrg">
-    <img alt="Check out my YouTube!" src="https://img.shields.io/badge/YouTube-HypThaNyx-black.svg?logo=youtube&color=666&style=social">
-  </a>
-
----
-
 ## 📝 Licença
 
-<img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
-
-Esse projeto está licenciado sob a licença do MIT - veja o arquivo de [LICENÇA](LICENSE) para mais detalhes.
+Esse projeto está licenciado sob a licença do AGPL-3.0 - veja o arquivo de [LICENÇA](LICENSE) para mais detalhes.
 
 ---
 
-🧰 Sendo desenvolvido por Wesley Yago!
+## 👀 Mais informações
+
+Para mais informações sobre os projetos presentes neste repositório ou para sugerir alterações e correções, entre em contato comigo pelo meu perfil do GitHub, Instagram ou Linkedin.
+
+<div>
+    <a href="https://github.com/kakanetwork"><img src="https://img.shields.io/badge/-GitHub-4d080e?style=for-the-badge&color=141321&logo=github&logoColor=fe428e" alt="GitHub"></a>
+    <a href="https://www.instagram.com/kaka_0206/"><img src="https://img.shields.io/badge/-Instagram-4d080e?style=for-the-badge&logo=instagram&color=141321&logoColor=fe428e" alt="Instagram"></a>
+    <a href="https://https://www.linkedin.com/in/kalvinklein"><img src="https://img.shields.io/badge/-linkedin-4d080e?style=for-the-badge&logo=linkedin&color=141321&logoColor=fe428e" alt="Instagram"></a>
+
+</div> 
+
+---
+
+<code>by kakanetwork</code>
