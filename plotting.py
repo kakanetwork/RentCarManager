@@ -66,8 +66,8 @@ def grafico_linhas(dark):
     # Adiciona o título à esquerda e formata fonte, espessura, nome
     ax.set_title("\nGráficos Financeiros (US$)", fontsize=9, fontweight='bold', loc='left')
 
-    # Adiciona a legenda fora do gráfico, formata fonte e nomes
-    ax.legend(linhas, ["Lucros Empresa", "Dívidas e Gastos", "Lucros Administração"], bbox_to_anchor=(1, 1), fontsize=5)
+    # Adiciona a legenda dentro do gráfico, formata fonte e nomes
+    ax.legend(linhas, ["Lucros Empresa", "Dívidas e Gastos", "Lucros Administração"], loc='upper right', fontsize=5, bbox_to_anchor=(1, 1))
 
     # Adiciona a grade no eixo Y com formatações especificas, como estilo da linha e espessura
     mplt.grid(axis='y', linestyle='--', linewidth=0.5)
@@ -121,7 +121,7 @@ def grafico_linhas2():
     # Adiciona o título à esquerda
     ax.set_title("\nQuantidade de Aluguéis por Dia", fontsize=9, fontweight='bold', loc='left')
 
-    # Adiciona a legenda fora do gráfico
+    # Adiciona a legenda dentro do gráfico
     ax.legend(linhas, ["Quantidade de Aluguéis"], bbox_to_anchor=(1, 1), fontsize=5)
 
     # Adiciona a grade no eixo Y
