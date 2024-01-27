@@ -51,9 +51,9 @@ def grafico_linhas(dark):
 
     # Plota as linhas no gráfico, com base nos dados da query tratada pelo Pandas
     linhas = [
-        ax.plot(df["liquido_empresa"], label="Lucros Empresa", marker='s', linestyle='-', linewidth=2, color='green')[0],
+        ax.plot(df["liquido_empresa"], label="Lucros Empresa", marker='o', linestyle='-', linewidth=2, color='green')[0],
         ax.plot(df2["saida"], label="Dívidas e Gastos", marker='o', linestyle='-', linewidth=2, color='red')[0],
-        ax.plot(df["lucro_admin"], label="Lucros Administração", marker='^', linestyle=':', linewidth=2, color='orange')[0]
+        ax.plot(df["lucro_admin"], label="Lucros Administração", marker='o', linestyle=':', linewidth=2, color='orange')[0]
     ]
 
     # Formatação do eixo Y
@@ -108,7 +108,7 @@ def grafico_linhas2():
     quantidade_alugueis = contagem_alugueis.values
 
     # Plota as linhas no gráfico
-    linhas = [ax.plot(dias, quantidade_alugueis, label="Quantidade de Aluguéis", marker='s', linestyle='-', linewidth=2, color='#003377')[0]]
+    linhas = [ax.plot(dias, quantidade_alugueis, label="Quantidade de Aluguéis", marker='o', linestyle='-', linewidth=2, color='#003377')[0]]
     
     # Formatação do eixo Y
     ax.yaxis.set_tick_params(labelsize=5)
@@ -122,7 +122,7 @@ def grafico_linhas2():
     ax.set_title("\nQuantidade de Aluguéis por Dia", fontsize=9, fontweight='bold', loc='left')
 
     # Adiciona a legenda dentro do gráfico
-    ax.legend(linhas, ["Quantidade de Aluguéis"], bbox_to_anchor=(1, 1), fontsize=5)
+    ax.legend(linhas, ["Quantidade de Aluguéis"], loc='upper right', bbox_to_anchor=(1, 1), fontsize=5)
 
     # Adiciona a grade no eixo Y
     mplt.grid(axis='y', linestyle='--', linewidth=0.5)

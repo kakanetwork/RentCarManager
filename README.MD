@@ -49,7 +49,9 @@ Após a finalização da fase de testes, em acordo com a Empresa realizamos a di
 ## 🔨 Exemplo na prática
 
 *(Descrição de como a aplicação implementa essa lógica na prática)*
-
+<p align="center">
+  <img src="https://github.com/kakanetwork/AutenticadorWeb/blob/master/content/0127.mp4">
+</p>
 Gostou e quer testar a aplicação na sua máquina? O tópico abaixo "Testando na sua máquina" pode te ajudar nisso.
 
 ---
@@ -111,7 +113,7 @@ flet ./app.py
 
 ## ⛳ Features
 
-- [X] Features já implementadas com sucesso.
+- [ ] Features já implementadas com sucesso.
 - [ ] Features ainda a implementar
 
 ---
