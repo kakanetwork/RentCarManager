@@ -45,17 +45,8 @@ A premissa desse projeto foi uma solução para a empresa "Angra Rent Car" (loca
 ---
 
 ## 🔨 Exemplo na prática
-<iframe width="640" height="360" src="D:\USUARIO\Documentos\Programas\Projetos-Pessoais\RentCarManager\content\0127.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- 
+[![Vídeo de exemplo](https://i.vimeocdn.com/video/907084081.webp)](https://vimeo.com/907084081)
 
-<video width="640" height="360" controls>
-    <source src="./content/0127.mp4" type="video/mp4">
-</video>
-
-*(Descrição de como a aplicação implementa essa lógica na prática)*
-<p align="center">
-  <img src="./content/0127.mp4">
-</p>
 Gostou e quer testar a aplicação na sua máquina? O tópico abaixo "Testando na sua máquina" pode te ajudar nisso.
 
 ---
