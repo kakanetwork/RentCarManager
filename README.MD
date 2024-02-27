@@ -45,6 +45,8 @@ A premissa desse projeto foi uma solução para a empresa "Angra Rent Car" (loca
 ---
 
 ## 🔨 Exemplo na prática
+https://github.com/kakanetwork/RentCarManager/assets/67252489/232e5e45-045f-4563-ae15-d4c6f9527ec0
+
 <p align="center">
   <img src="https://github.com/kakanetwork/RentCarManager/blob/master/0127.mp4">
 </p>
