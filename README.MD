@@ -108,7 +108,8 @@ flet ./app.py
 
 ## ⛳ Features
 
-- [x] Features já implementadas com sucesso.
+- [x] Implementação do Modo Escuro.
+- [ ] Implementação da Troca de Usuarios.
 
 ---
 
