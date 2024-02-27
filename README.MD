@@ -40,17 +40,21 @@ O Flet além de inovador, criativo e simples consegue te fornecer interfaces e f
 
 Lembrando que o Flet é baseado 100% em Flutter, um framework de código aberto criado pela Google.
 
-A premissa desse projeto foi uma solução para a empresa "Angra Rent Car" (localizada na Califórnia, estado oeste dos EUA) que desejava um software que suprisse suas necessidades de gerenciamento e controle de aluguéis veiculares e controle financeiro de sua empresa, inicialmente sendo desenvolvida como um projeto privado.
-
-Após a finalização da fase de testes, em acordo com a Empresa realizamos a distribuição do software gratuitamente para testes em outras empresas do ramo conhecidas pela mesma e decidimos torna-la uma solução geral, não apenas única e privada e liberar o código fonte para fins educacionais.
+A premissa desse projeto foi uma solução para a empresa "Angra Rent Car" (localizada na Califórnia, estado oeste dos EUA) que desejava um software que suprisse suas necessidades de gerenciamento e controle de aluguéis veiculares e controle financeiro de sua empresa.
 
 ---
 
 ## 🔨 Exemplo na prática
+<iframe width="640" height="360" src="D:\USUARIO\Documentos\Programas\Projetos-Pessoais\RentCarManager\content\0127.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+
+<video width="640" height="360" controls>
+    <source src="./content/0127.mp4" type="video/mp4">
+</video>
 
 *(Descrição de como a aplicação implementa essa lógica na prática)*
 <p align="center">
-  <img src="https://github.com/kakanetwork/AutenticadorWeb/blob/master/content/0127.mp4">
+  <img src="./content/0127.mp4">
 </p>
 Gostou e quer testar a aplicação na sua máquina? O tópico abaixo "Testando na sua máquina" pode te ajudar nisso.
 
@@ -61,7 +65,7 @@ Gostou e quer testar a aplicação na sua máquina? O tópico abaixo "Testando n
 *(Passo a passo de como executar o projeto em qualquer máquina com o executável)*
 
 ### Requisitos básicos
-- [Windows 10+](https://www.microsoft.com/pt-br/software-download/windows10)
+- [Windows](https://www.microsoft.com/pt-br/software-download/windows10)
 
 ### Instruções de uso
 - Clique no botão "Code" pelo github na parte superior direita do repositório
@@ -113,8 +117,7 @@ flet ./app.py
 
 ## ⛳ Features
 
-- [ ] Features já implementadas com sucesso.
-- [ ] Features ainda a implementar
+- [x] Features já implementadas com sucesso.
 
 ---
 
