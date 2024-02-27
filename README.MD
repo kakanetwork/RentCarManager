@@ -45,7 +45,7 @@ A premissa desse projeto foi uma solução para a empresa "Angra Rent Car" (loca
 ---
 
 ## 🔨 Exemplo na prática
-[![Vídeo de exemplo](https://i.vimeocdn.com/video/907084081.webp)](https://vimeo.com/907084081)
+<iframe src="https://player.vimeo.com/video/907084081" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 Gostou e quer testar a aplicação na sua máquina? O tópico abaixo "Testando na sua máquina" pode te ajudar nisso.
 
